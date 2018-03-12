@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+ 
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+#question{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color:black;
+    width:50%;
+}
+
+#answer{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color:black;
+    width:50%;
+}
+
+#idin {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#inner-div
+{
+     margin: 0 auto;
+     width: 100px; 
+}
+
+h1 {
+  margin-bottom: .25em;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  margin: .25em 0 2em;
+  color: #aaa;
+}
+
+footer {
+    clear: left;
+    font-size: .75em;
+}
+.select {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.select select {
+	display: inline-block;
+	width: 100%;
+	padding: 5px 1px;
+	cursor: pointer;
+	color: #7b7b7b;
+	border: 0;
+	border-radius: 0;
+	outline: 0;
+	background: #e6e6e6;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
